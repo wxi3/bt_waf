@@ -1,0 +1,12 @@
+{
+    "ruleid":1001,
+    "cms_type":"wordpress",
+    "info":"拦截/wp-json/wp/v2/users获取管理员用户名",
+    "status":true,
+    "method":"ALL",
+    "type": "uri",
+    "operator":"eq",
+    "left_factor":"/wp-json/wp/v2/users",
+    "ps": "默认开启、有效防止外部获取管理员的用户名",
+    "check_param":false
+  }

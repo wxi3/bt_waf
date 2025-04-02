@@ -1,0 +1,4 @@
+[
+	[1,"base64_decode\\(","PHP代码执行",0],
+	[1,"\\$_(GET|post|cookie|files|session|env|phplib|GLOBALS|SERVER)\\[","PHP代码执行",0]
+]

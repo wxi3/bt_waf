@@ -1,0 +1,16 @@
+{
+    "ruleid":1012,
+    "cms_type":"Discuz!",
+    "info":"Discuz! 版本转换功能导致Getshell",
+    "status":true,
+    "method":"POST",
+    "type": "uri",
+    "operator":"request_uri",
+    "check_param":true,
+    "ps":"Discuz utility/convert/index.php 漏洞",
+    "left_factor":"/utility/convert/index.php",
+    "keys" : {
+        "a" : "config",
+        "source" : ""
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "ruleid":1004,
+    "cms_type":"wordpress",
+    "info":"拦截修改插件文件",
+    "status":false,
+    "method":"POST",
+    "type": "uri",
+    "operator":"eq",
+    "left_factor":"/wp-admin/plugin-editor.php",
+    "check_param":true,
+    "ps": "建议开启、可以防止登录后台上传木马",
+    "keys": {
+      "newcontent":""
+    }
+  }

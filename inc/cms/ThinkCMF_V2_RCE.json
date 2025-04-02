@@ -1,0 +1,16 @@
+{
+    "ruleid":2001,
+    "cms_type":"ThinkCMF",
+    "info":"ThinkCMF V2 代码执行漏洞",
+    "status":true,
+    "method":"GET",
+    "type": "uri",
+    "operator":"request_uri",
+    "check_param":true,
+    "ps":"ThinkCMF V2 代码执行漏洞",
+    "left_factor":"/index.php",
+    "keys":{
+        "a":"fetch",
+        "content":"$_BT_PHPCODE"
+    }
+}

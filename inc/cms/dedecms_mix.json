@@ -1,0 +1,16 @@
+{
+    "ruleid":2011,
+    "cms_type":"dedecms",
+    "info":"dedecms article_string_mix.php后台代码执行漏洞",
+    "status":true,
+    "method":"POST",
+    "type": "uri",
+    "operator":"request_uri",
+    "check_param":true,
+    "ps":"dedecms /article_string_mix.php",
+    "left_factor":"/article_string_mix.php",
+    "keys" : {
+        "dopost" : "save",
+        "allsource" : "$_BT_PHPCODE"
+    }
+}

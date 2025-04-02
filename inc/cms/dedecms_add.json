@@ -1,0 +1,16 @@
+{
+    "ruleid":2012,
+    "cms_type":"dedecms",
+    "info":"dedecms ad_add.php后台代码执行漏洞",
+    "status":true,
+    "method":"POST",
+    "type": "uri",
+    "operator":"request_uri",
+    "check_param":true,
+    "ps":"dedecms /ad_add.php",
+    "left_factor":"/ad_add.php",
+    "keys" : {
+        "dopost" : "save",
+        "normbody[htmlcode]" : "$_BT_PHPCODE"
+    }
+}

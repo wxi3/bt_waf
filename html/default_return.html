@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>{{title}}</title>
+<style>
+*{margin:0;padding:0;color:#444}
+body{font-size:14px;font-family:"宋体"}
+.main{width:600px;margin:10% auto;}
+.title{background: #20a53a;color: #fff;font-size: 16px;height: 40px;line-height: 40px;padding-left: 20px;}
+.content{background-color:#f3f7f9; height:280px;border:1px dashed #c6d9b6;padding:20px}
+.t1{border-bottom: 1px dashed #c6d9b6;color: #ff4000;font-weight: bold; margin: 0 0 20px; padding-bottom: 18px;}
+.t2{margin-bottom:8px; font-weight:bold}
+ol{margin:0 0 20px 22px;padding:0;}
+ol li{line-height:30px}
+</style>
+</head>
+
+<body>
+	<div class="main">
+		<div class="title">{{title}}</div>
+		<div class="content">
+			<p class="t1">{{t1}}</p>
+			<p class="t2">可能原因：</p>
+			<ol>
+				<li>{{li}}</li>
+			</ol>
+			<p class="t2">如何解决：</p>
+			<ol>
+				<li>{{l2}}</li>
+			</ol>
+		</div>
+	</div>
+</body>
+<!--2023-08-16 -->
+</html>

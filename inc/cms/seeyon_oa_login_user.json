@@ -1,0 +1,16 @@
+{
+    "ruleid":2003,
+    "cms_type":"致远OA",
+    "info":"[2021hvv] 致远OA-任意用户登录漏洞",
+    "status":true,
+    "method":"POST",
+    "type": "uri",
+    "operator":"eq",
+    "check_param":true,
+    "ps":"任意用户登录漏洞",
+    "left_factor":"/seeyon/thirdpartyController.do",
+    "keys" : {
+        "method" : "access",
+         "enc" : "$_BT_STARTTT5uZnR0YmhmL21qb2wvZXBkL2dwbWVmcy9wcWZvJ04"
+    }
+}

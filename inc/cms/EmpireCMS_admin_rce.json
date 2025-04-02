@@ -1,0 +1,17 @@
+{
+    "ruleid":2007,
+    "cms_type":"帝国CMS",
+    "info":"帝国CMS后台代码执行",
+    "status":true,
+    "method":"POST",
+    "type": "uri",
+    "operator":"request_uri",
+    "check_param":true,
+    "ps":"备份功能存在代码执行漏洞",
+    "left_factor":"/admin/ebak/phome.php",
+    "keys" : {
+        "mydbname" : "",
+        "dbchar" : "",
+        "tablename[]" : "$_BT_REGEXP[(|;|)]"
+    }
+}

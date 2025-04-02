@@ -1,0 +1,12 @@
+{
+    "ruleid":1011,
+    "cms_type":"pbootcms",
+    "info":"pbootcms <= 3.1.6 代码执行漏洞",
+    "status":true,
+    "method":"GET",
+    "type": "uri",
+    "operator":"regexp",
+    "check_param":false,
+    "ps":"CVD-2022-3592,cve-2022-32417,CVD-2022-3294",
+    "left_factor":"pboot\\:if\\(|{pbohome/Indexot\\:if|{pboot{user\\:"
+}

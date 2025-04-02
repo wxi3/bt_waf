@@ -1,0 +1,16 @@
+{
+    "ruleid":1005,
+    "cms_type":"wordpress",
+    "info":"拦截修改主题文件",
+    "status":false,
+    "method":"POST",
+    "type": "uri",
+    "operator":"eq",
+    "left_factor":"/wp-admin/theme-editor.php",
+    "check_param":true,
+    "ps": "建议开启、可以防止登录后台上传木马",
+    "keys": {
+      "newcontent":""
+    }
+   
+  }

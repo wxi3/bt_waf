@@ -1,0 +1,5 @@
+以下为第三方库引用列表，其版权归原作者所有
+GeoLite2-City.mmdb   Copyright 2017-now iglov  https://github.com/iglov/mmdb-editor
+multipart.lua   Copyright (C) 2016, by Yichun "agentzh" Zhang, CloudFlare Inc. https://github.com/agentzh
+maxminddb.lua Copyright 2017-now anjia (anjia0532@gmail.com) https://github.com/lilien1010/lua-resty-maxminddb/
+ElementNode.lua Copyright (c) 2023-2099 weaweawe01 https://github.com/weaweawe01/lua-htmlparser

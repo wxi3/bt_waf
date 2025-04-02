@@ -1,0 +1,16 @@
+{
+    "ruleid":2010,
+    "cms_type":"dedecms",
+    "info":"dedecms article_template_rand.php后台代码执行漏洞",
+    "status":true,
+    "method":"POST",
+    "type": "uri",
+    "operator":"request_uri",
+    "check_param":true,
+    "ps":"dedecms article_template_rand.php",
+    "left_factor":"/article_template_rand.php",
+    "keys" : {
+        "dopost" : "save",
+        "templates" : "$_BT_PHPCODE"
+    }
+}

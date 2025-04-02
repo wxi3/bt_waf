@@ -1,0 +1,18 @@
+{
+    "ruleid":2009,
+    "cms_type":"dedecms",
+    "info":"dedecms tpl.php后台代码执行漏洞",
+    "status":true,
+    "method":"ALL",
+    "type": "uri",
+    "operator":"request_uri",
+    "check_param":true,
+    "ps":"dedecms tpl.php ",
+    "left_factor":"/tpl.php",
+    "keys" : {
+        "filename" : "$_BT_REGEXP.php$",
+        "action" : "savetagfile",
+        "content" : "$_BT_PHPCODE",
+        "token" : "$_BT_LEN32"
+    }
+}

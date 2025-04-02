@@ -1,0 +1,22 @@
+{
+    "ruleid":1007,
+    "cms_type":"wordpress",
+    "info":"禁止上传wordpress主题、插件",
+    "status":false,
+    "method":"POST",
+    "type": "uri",
+    "operator":"eq",
+    "check_param":true,
+    "ps":"建议开启、可以防止登录后台上传带木马的主题或者插件",
+    "left_factor":"/wp-admin/update.php",
+    "keys":{
+    },
+    "matchs":[
+        {
+            "bt_args_action":"upload-theme"
+        },
+        {
+            "bt_args_action":"upload-plugin"
+        }
+    ]
+}

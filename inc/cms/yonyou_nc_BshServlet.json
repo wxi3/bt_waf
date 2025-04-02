@@ -1,0 +1,17 @@
+{
+    "ruleid":2005,
+    "cms_type":"用友NC",
+    "info":"用友NC bsh.servlet.BshServlet 远程代码执行漏洞",
+    "status":true,
+    "method":"POST",
+    "type": "uri",
+    "operator":"eq",
+    "check_param":true,
+    "ps":"用友NC",
+    "left_factor":"/servlet/~ic/bsh.servlet.BshServlet",
+    "keys" : {
+        "bsh.script" : "",
+        "bsh.servlet.captureOutErr" : "",
+        "bsh.servlet.output":""
+    }
+}

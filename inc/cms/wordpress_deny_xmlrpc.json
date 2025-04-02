@@ -1,0 +1,12 @@
+{
+    "ruleid":1002,
+    "cms_type":"wordpress",
+    "info":"禁止访问xmlrpc.php",
+    "status":true,
+    "method":"POST",
+    "type": "uri",
+    "operator":"eq",
+    "left_factor":"/xmlrpc.php",
+    "ps": "默认开启、减少使用xmlrpc.php带来的安全风险,如无特殊需求建议开启",
+    "check_param":false
+}

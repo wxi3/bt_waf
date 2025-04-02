@@ -1,0 +1,15 @@
+{
+    "ruleid":1013,
+    "cms_type":"jeecg-boot",
+    "info":"jeecg-boot 3.0->3.5.3 远程代码执行",
+    "status":true,
+    "method":"POST",
+    "type": "uri",
+    "operator":"eq",
+    "check_param":true,
+    "ps":"/jeecg-boot/jmreport/queryFieldBySql 远程代码执行",
+    "left_factor":"/jeecg-boot/jmreport/queryFieldBySql",
+    "keys" : {
+        "sql" : ""
+    }
+}

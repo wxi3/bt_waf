@@ -1,0 +1,10 @@
+[
+	[1, "\\.\\./\\.\\./", "目录保护1", 0, 30],
+	[1, "(?:etc\\/\\W*passwd)", "目录保护3", 0, 100],
+	[1, "(gopher|doc|php|glob|^file|phar|zlib|ftp|ldap|dict|ogg|data)\\:\\/", "PHP流协议过滤1", 0, 100],
+	[1, "base64_decode\\(", "一句话*屏蔽的关键字*过滤1", 0,20],
+	[1, "(?:define|eval|file_get_contents|include|require_once|shell_exec|phpinfo|system|passthru|chr|char|preg_\\w+|execute|echo|print|print_r|var_dump|(fp)open|showmodaldialog|file_put_contents|fopen|urldecode|scandir)\\(", "一句话*屏蔽的关键字*过滤2", 0, 100],
+	[1, "\\$_(GET|post|cookie|files|session|env|phplib|GLOBALS|SERVER)", "一句话*屏蔽的关键字*过滤3", 0, 50],
+	[1, "(array_map\\(\"ass)", "菜刀流量过滤", 0, 30],
+	[1, "\\${jndi:", "log4j2拦截", 1, 100]
+]

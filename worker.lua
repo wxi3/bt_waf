@@ -1,0 +1,2 @@
+-- local workers = require "workers"
+-- ngx.timer.every(1,workers.update_status_total)          -- 1秒钟检查一次CC防护级别

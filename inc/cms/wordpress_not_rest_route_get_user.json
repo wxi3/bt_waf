@@ -1,0 +1,22 @@
+{
+    "ruleid":1003,
+    "cms_type":"wordpress",
+    "info":"拦截通过wordpress特性获取管理员用户名",
+    "status":true,
+    "method":"ALL",
+    "type": "uri",
+    "operator":"request_uri",
+    "left_factor":"/index.php",
+    "check_param":true,
+    "ps": "默认开启、有效防止外部获取管理员的用户名",
+    "keys": {},
+    "matchs" : [
+      {
+          "rest_route" : "$_BT_START/wp/v2/users"
+        },
+      {
+          "author" : "$_BT_LEN1"
+        
+      }
+    ]
+  }

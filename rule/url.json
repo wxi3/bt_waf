@@ -1,0 +1,7 @@
+[
+    [1, "\\.\\./\\.\\./", "文件包含", 0,100],
+	[1, "\\.(htaccess|mysql_history|bash_history|DS_Store|idea|user\\.ini)", "网站备份文件", 0],
+	[1, "\\.(bak|inc|old|mdb|sql|php~|swp|java|class)$", "网站备份文件", 0],
+	[1, "^/(vhost|bbs|host|wwwroot|www|site|root|backup|data|ftp|db|admin|website|web).*\\.(rar|sql|zip|tar\\.gz|tar)$", "网站备份文件", 0],
+	[1, "/(hack|shell|spy|phpspy)\\.php$", "恶意脚本", 0]
+]

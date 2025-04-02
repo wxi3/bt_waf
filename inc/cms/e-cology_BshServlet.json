@@ -1,0 +1,17 @@
+{
+    "ruleid":2004,
+    "cms_type":"泛微OA",
+    "info":"泛微OA E-Cology BshServlet 远程代码执行漏洞",
+    "status":true,
+    "method":"POST",
+    "type": "uri",
+    "operator":"eq",
+    "check_param":true,
+    "ps":"E-Cology",
+    "left_factor":"/weaver/bsh.servlet.BshServlet",
+    "keys" : {
+        "bsh.script" : "",
+        "bsh.servlet.captureOutErr" : "",
+        "bsh.servlet.output":""
+    }
+}

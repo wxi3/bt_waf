@@ -1,0 +1,16 @@
+{
+    "ruleid":2005,
+    "cms_type":"Metersphere",
+    "info":"MeterSphere 1.16.3 之前存在远程代码执行",
+    "status":true,
+    "method":"POST",
+    "type": "uri",
+    "operator":"eq",
+    "check_param":true,
+    "ps":"/plugin/customMethod 接口代码执行漏洞",
+    "left_factor":"/plugin/customMethod",
+    "keys" : {
+        "entry" : "Evil",
+        "request" : ""
+    }
+}
